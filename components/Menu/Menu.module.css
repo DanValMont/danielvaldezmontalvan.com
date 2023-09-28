@@ -1,0 +1,329 @@
+.menu_wrapper.active {
+    width: 100%;
+}
+
+.menu_wrapper {
+    background-color: #1e282e;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    width: 0%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    transition: width 1.2s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.background_menu_wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 70%;
+    height: 100%;
+    z-index: 4;
+}
+
+.background_image_3_mask {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    object-fit: cover;
+    /* Photo by Jess Loiterton from Pexels, edited with GIMP: */
+    background: url("/background-images/surfer-transparent.png") no-repeat center center fixed;
+    background-size: cover;
+    filter: url(#turbulence);
+}
+
+.background_image {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    object-fit: cover;
+    /* Photo by Kammeran Gonzalez-Keola from Pexels: */
+    background: url("/background-images/big-wave-right.jpg") no-repeat center center fixed;
+    background-size: cover;
+    opacity: 0;
+    transition: opacity 2.5s ease;
+    -webkit-transition: opacity 2.5s ease;
+    filter: url(#turbulence);
+}
+
+.background_image_2 {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    object-fit: cover;
+    /* Photo by MarcTutorials from Pexels: */
+    background: url("/background-images/palm-trees.jpg") no-repeat center center fixed;
+    background-size: cover;
+    opacity: 0;
+    transition: opacity 2.5s ease;
+    -webkit-transition: opacity 2.5s ease;
+    filter: url(#turbulence);
+}
+
+.background_image_3 {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    object-fit: cover;
+    /* Photo by Jess Loiterton from Pexels: */
+    background: url("/background-images/surfer.jpg") no-repeat center center fixed;
+    background-size: cover;
+    opacity: 0;
+    transition: opacity 2.5s ease;
+    -webkit-transition: opacity 2.5s ease;
+}
+
+.background_image_4 {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    object-fit: cover;
+    /* Photo by William Weaver from Pexels: */
+    background: url("/background-images/big-wave-left.jpg") no-repeat center center fixed;
+    background-size: cover;
+    opacity: 0;
+    transition: opacity 2.5s ease;
+    -webkit-transition: opacity 2.5s ease;
+    filter: url(#turbulence);
+}
+
+.background_image_5 {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    object-fit: cover;
+    /* Photo by Daria Shevtsova from Pexels: */
+    background: url("/background-images/beach-house.jpg") no-repeat center center fixed;
+    background-size: cover;
+    opacity: 0;
+    transition: opacity 2.5s ease;
+    -webkit-transition: opacity 2.5s ease;
+    filter: url(#turbulence);
+}
+
+
+.menu_list_container {
+    width: 45%;
+    height: 100%;
+    background-color: #161c20;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10vw;
+    padding-top: 0px;
+    padding-top: 5vh;
+    overflow: hidden;
+    box-sizing: border-box;
+    z-index: 6;
+}
+
+.menu_list_container ul {
+    list-style-type: none;
+}
+
+.menu_list_container ul li:nth-child(1) {
+    font-family: "Soulmaze";
+    font-size: 6vh;
+    font-weight: normal;
+    line-height: 170%;
+    cursor: pointer;
+    color: #ffffff;
+    position: relative;
+    padding-top: 2vh;
+    animation-name: animateIn;
+    animation-duration: 1000ms;
+    animation-delay: 1200ms;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+}
+
+.menu_list_container ul li:nth-child(2) {
+    font-family: "Soulmaze";
+    font-size: 6vh;
+    font-weight: normal;
+    line-height: 170%;
+    cursor: pointer;
+    color: #ffffff;
+    position: relative;
+    padding-top: 2vh;
+    animation-name: animateIn;
+    animation-duration: 1000ms;
+    animation-delay: 1400ms;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+}
+
+.menu_list_container ul li:nth-child(3) {
+    font-family: "Soulmaze";
+    font-size: 6vh;
+    font-weight: normal;
+    line-height: 170%;
+    cursor: pointer;
+    color: #ffffff;
+    position: relative;
+    padding-top: 2vh;
+    animation-name: animateIn;
+    animation-duration: 1000ms;
+    animation-delay: 1600ms;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+}
+
+.menu_list_container ul li:nth-child(4) {
+    font-family: "Soulmaze";
+    font-size: 6vh;
+    font-weight: normal;
+    line-height: 170%;
+    cursor: pointer;
+    color: #ffffff;
+    position: relative;
+    padding-top: 2vh;
+    animation-name: animateIn;
+    animation-duration: 1000ms;
+    animation-delay: 1800ms;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+}
+
+.menu_list_container ul li:nth-child(5) {
+    font-family: "Soulmaze";
+    font-size: 6vh;
+    font-weight: normal;
+    line-height: 170%;
+    cursor: pointer;
+    color: #ffffff;
+    position: relative;
+    padding-top: 2vh;
+    animation-name: animateIn;
+    animation-duration: 1000ms;
+    animation-delay: 2000ms;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+}
+
+
+@keyframes animateIn {
+    0% {
+        opacity: 0;
+        transform: translateY(5vh);
+        transition: transform 1000ms ease-in-out 250ms;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0vh);
+        transition: transform 1500ms ease-in-out 250ms;
+    }
+}
+
+.menu_list_container ul li.closing {
+    font-family: "Soulmaze";
+    font-size: 6vh;
+    font-weight: normal;
+    line-height: 170%;
+    cursor: pointer;
+    color: #ffffff;
+    position: relative;
+    padding-top: 2vh;
+    opacity: 1;
+    animation-name: animateOff;
+    animation-duration: 400ms;
+    animation-delay: 100ms;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+}
+
+
+@keyframes animateOff {
+    0% {
+        opacity: 1;
+        transition: opacity 1000ms ease-in-out 250ms;
+    }
+
+    100% {
+        opacity: 0;
+        transition: opacity 1500ms ease-in-out 250ms;
+    }
+}
+
+.menu_list_container ul li a {
+    text-decoration: none;
+    /* background: #4CB8C4; */
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #feac5e, #c779d0, #4bc0c8);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #feac5e, #c779d0, #4bc0c8);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* #00d2ff,
+    #928dab */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.menu_list_container ul li.visible::after {
+    width: 100% !important;
+}
+
+.menu_list_container ul li::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 0%;
+    background-color: white;
+    transition: width 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -webkit-transition: width 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+
+
+
+@media screen and (max-width: 900px) and (orientation: portrait) {
+    .menu_list_container {
+        width: 100% !important;
+    }
+}
+
+@media screen and (min-width: 640px) and (orientation: landscape) {
+    .menu_list_container {
+        width: 50%;
+    }
+}

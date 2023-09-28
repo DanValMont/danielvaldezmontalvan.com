@@ -1,0 +1,237 @@
+.container {
+    position: relative;
+    width: 360px;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 250px 20px;
+    grid-template-areas: "image""text""stats";
+    border-radius: 0px;
+    background: #1d1d1d;
+    color: white;
+    box-shadow: 0px rgba(0, 0, 0, 0.9);
+    font-family: "Questrial";
+    text-align: justify;
+    margin: 60px 30px 30px 30px;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+}
+
+
+
+.rgb::after {
+    content: "";
+    background: linear-gradient(45deg,
+            #ff0000 0%,
+            #ff9a00 10%,
+            #d0de21 20%,
+            #4fdc4a 30%,
+            #3fdad8 40%,
+            #2fc9e2 50%,
+            #1c7fee 60%,
+            #5f15f2 70%,
+            #ba0cf8 80%,
+            #fb07d9 90%,
+            #ff0000 100%) repeat 0% 0% / 300% 100%;
+    position: absolute;
+    inset: -3px;
+    border-radius: 0px;
+    filter: blur(8px);
+    transform: translateZ(-1px);
+    /*or z-index */
+    animation: rgb 6s linear infinite;
+}
+
+.overlay {
+    position: absolute;
+    top: -12.40%;
+    bottom: -12.40%;
+    left: 0%;
+    right: 0%;
+    width: 360px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: transparent;
+}
+
+.card_reverse {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 220px 110px 150px;
+    grid-template-areas: "text""roles""technologies";
+    border-radius: 0px;
+    background: #1d1d1d;
+    color: white;
+    box-shadow: 0px rgba(0, 0, 0, 0.9);
+    font-family: "Questrial";
+    text-align: justify;
+    margin: 60px 30px 30px 30px;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    position: relative;
+}
+
+
+@keyframes rgb {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.card_image {
+    grid-area: image;
+    background: linear-gradient(#fff0 0%, #fff0 70%, #1d1d1d 100%);
+
+}
+
+.card_text {
+    grid-area: text;
+    margin: 25px;
+    transform: translateZ(30px);
+}
+
+.container:hover .flip_card_icon_front {
+    opacity: 1;
+    transform: translateZ(60px);
+}
+
+.card_text .flip_card_icon_front {
+    position: absolute;
+    top: -5%;
+    right: 0%;
+
+    opacity: 0;
+    transition: .5s ease;
+    background-color: transparent;
+}
+
+.card_text .date {
+    color: rgb(255, 7, 110);
+    font-size: 13px;
+}
+
+.card_text p {
+    color: grey;
+    font-size: 14px;
+    font-weight: 300;
+    margin-right: 0.5vw;
+    /* color: #d4d4d4; */
+}
+
+.card_text h2 span {
+    margin-right: 1vw;
+    margin-top: 1vw;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.card_text h2 span a {
+    cursor: pointer;
+}
+
+.card_text h2 {
+    margin-top: 0px;
+    font-size: 28px;
+    margin-bottom: -5px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+.card_roles {
+    grid-area: roles;
+    margin: 0 25px;
+    transform: translateZ(60px);
+}
+
+.container:hover .flip_card_icon_back {
+    opacity: 1;
+}
+
+.card_roles .flip_card_icon_back {
+    position: absolute;
+    top: 5%;
+    right: 0%;
+    cursor: pointer;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: transparent;
+
+}
+
+.card_roles .roles {
+    color: rgb(255, 7, 110);
+    font-size: 13px;
+}
+
+.roles_list {
+    list-style-type: none;
+
+    margin: 0 auto;
+}
+
+.roles_item {
+    margin: 0.5vh -40px;
+    color: grey;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.technologies {
+    grid-area: technologies;
+    margin: 0 25px 25px;
+    transform: translateZ(60px);
+}
+
+.technologies .main_technologies {
+    color: rgb(255, 7, 110);
+    font-size: 13px;
+}
+
+.grid_technologies {
+    grid-area: technologies;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.grid_technologies .technology {
+    padding: 7px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.technology_icon {
+    font-size: 22px;
+}
+
+.technology_name {
+    font-size: 10px;
+    font-weight: 300;
+    color: grey;
+}
+
+@media only screen and (max-width: 1280px) {
+    .card_text .flip_card_icon_front {
+        opacity: 1;
+    }
+
+    .card_roles .flip_card_icon_back {
+        opacity: 1;
+    }
+}

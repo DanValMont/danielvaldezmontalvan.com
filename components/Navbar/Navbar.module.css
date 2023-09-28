@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* added below */
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    padding: 2.5vh 7vw;
+    filter: invert(0);
+    transition: filter 1000ms ease-in-out 35ms;
+}
+
+.header_color_inverted {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* added below */
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    padding: 2.5vh 7vw;
+    filter: invert(1);
+    transition: filter 1000ms ease-in-out 35ms;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.button_menu {
+    background-color: transparent;
+    overflow: hidden;
+    border: none;
+    cursor: pointer;
+}
+
+.menu_indicator {
+    font-size: 0.8rem;
+}

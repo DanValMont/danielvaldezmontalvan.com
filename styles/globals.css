@@ -3,7 +3,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif, MADE Soulmaze;
+  background: #1e282e;
 }
 
 a {
@@ -13,4 +14,59 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Soulmaze";
+  src: url("/fonts/Soulmaze/Soulmaze.otf");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Soulmaze-Italic";
+  src: url("/fonts/Soulmaze/Soulmaze-Italic.otf");
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Questrial";
+  src: url("/fonts/Questrial/Questrial-Regular.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Soulmaze-Brush";
+  src: url("/fonts/Soulmaze/Soulmaze-Brush.otf");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Soulmaze-Outline-Italic";
+  src: url("/fonts/Soulmaze/Soulmaze-Outline-Italic.otf");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Soulmaze-Outline";
+  src: url("/fonts/Soulmaze/Soulmaze-Outline.otf");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MADE Future X Regular";
+  src: url("/fonts/MADE Future X/MADE Future X Regular.otf");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MADE Future X Thin";
+  src: url("/fonts/MADE Future X/MADE Future X Thin.otf");
+  font-style: normal;
+  font-display: swap;
 }

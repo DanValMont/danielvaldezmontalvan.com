@@ -1,0 +1,26 @@
+.footer_container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    position: absolute;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    margin-top: 85vh;
+    width: 100vw;
+    padding: 2.5vh 7vw;
+    line-height: 0vh;
+    font-family: "MADE Future X Thin";
+    color: #fff;
+    font-size: clamp(0.6rem, 0.7500rem + -0.2222vw, 0.7rem);
+}
+
+@media screen and (max-width: 640px) and (orientation: portrait) {
+    .footer_container {
+        align-items: center;
+        margin-top: 88vh;
+    }
+
+}

@@ -1,0 +1,133 @@
+.container {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-evenly;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    padding: 7.5vw;
+}
+
+.container h1 {
+    margin: 0;
+    padding: 0;
+    line-height: clamp(3.2rem, 1.8000rem + 6.2222vw, 6rem);
+    font-family: "Soulmaze";
+    font-style: italic;
+    text-align: left;
+    font-size: clamp(3.9rem, 2.3500rem + 6.8889vw, 7rem);
+    color: #fff;
+}
+
+.description {
+    width: 45%;
+    margin: 0.5rem 0;
+    font-family: "MADE Future X Thin";
+    color: #fff;
+    font-size: clamp(0.7rem, 0.5500rem + 0.6667vw, 1rem);
+    align-self: end;
+    text-align: justify;
+}
+
+.description span {
+    margin-right: 2vw;
+    font-weight: bold;
+    border-bottom: 2px solid #fff;
+}
+
+.description span a {
+    cursor: pointer;
+}
+
+.technologies {
+    width: 45%;
+    font-family: "MADE Future X Thin";
+    color: #fff;
+    font-size: clamp(0.7rem, 0.5500rem + 0.6667vw, 1rem);
+    text-align: left;
+}
+
+.technologies ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.technologies li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    white-space: nowrap;
+    letter-spacing: 1vh;
+    padding: 1vh 0;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.technologies_imgs {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1vw;
+    row-gap: 0.5vh;
+}
+
+.technologies img {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7500%) hue-rotate(328deg) brightness(114%) contrast(86%);
+    height: 2.3vh;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 992px) and (orientation: landscape) {
+    .container {
+        padding: 10vw 7.5vw 4.5vw 7.5vw;
+    }
+
+    .container h1 {
+        font-size: clamp(2rem, 0.5000rem + 6.6667vw, 5rem);
+        line-height: clamp(1.2rem, -0.2000rem + 6.2222vw, 4rem);
+    }
+
+    .description {
+        align-self: end;
+        margin: 0rem 0;
+        font-size: clamp(0.5rem, 0.4000rem + 0.4444vw, 0.7rem);
+    }
+
+    .technologies {
+        font-size: clamp(0.5rem, 0.4000rem + 0.4444vw, 0.7rem);
+    }
+
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1080px) and (orientation: landscape) {
+
+    .container {
+        padding: 4vw 7.5vw 4.5vw 7.5vw;
+    }
+
+    .container h1 {
+        font-size: clamp(2.8rem, 1.4500rem + 6.0000vw, 5.5rem);
+        line-height: clamp(2.2rem, 1.0500rem + 5.1111vw, 4.5rem);
+    }
+
+
+}
+
+@media screen and (max-width: 1080px) and (orientation: portrait) {
+    .description {
+        align-self: start;
+        margin: 0 1rem 0;
+    }
+
+    .technologies {
+        width: 95%;
+    }
+}

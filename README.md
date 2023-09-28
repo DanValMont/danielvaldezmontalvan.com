@@ -1,34 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!-- markdownlint-disable MD033 -->
+<h1 align="center">
+    danielvaldezmontalvan.com
+</h1>
 
-## Getting Started
+This is my personal portfolio website with a full showcase of my completed projects.
 
-First, run the development server:
+### Source Information
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+This website is built with:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [Next.js (The React Framework to create full-stack Web applications)](https://nextjs.org/)
+- [React-Alice-Carousel (Content rotators)](https://www.npmjs.com/package/react-alice-carousel)
+- [React-Parallax-Tilt (Tilt hover effect on React components)](https://www.npmjs.com/package/react-parallax-tilt)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Background Images
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Image editor:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+-[GIMP (GNU Image Manipulation Program)](https://www.gimp.org/)
 
-## Learn More
+Special thanks and credits to:
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Kammeran Gonzalez-Keola (Menu-Home and Main page)](https://www.pexels.com/@kammeran-gonzalez-keola-3137381/)
+- [Reed Naliboff (About Page)](https://unsplash.com/@reednaliboff)
+- [MarcTutorials (Menu-Work)](https://www.pexels.com/@marctutorials-298692/)
+- [Jess Loiterton (Menu-About)](https://www.pexels.com/@jess-vide/)
+- [William Weaver (Menu-Email)](https://www.facebook.com/p/William-Weaver-Photography-100063581942068/)
+- [Daria Shevtsova (Menu-Github)](https://unsplash.com/@daria_shevtsova)
+- [Ozan Çulha (MERGED Female Model)](https://www.pexels.com/@ozanculha/)
+- [Andrea Piacquadio (MERGED Male Model)](https://www.pexels.com/@olly/)
