@@ -19,7 +19,7 @@ Image editor:
 
 -[GIMP (GNU Image Manipulation Program)](https://www.gimp.org/)
 
-Special thanks and credits to:
+Special thanks and credits to the following photographers:
 
 - [Kammeran Gonzalez-Keola (Menu-Home and Main page)](https://www.pexels.com/@kammeran-gonzalez-keola-3137381/)
 - [Reed Naliboff (About Page)](https://unsplash.com/@reednaliboff)
