@@ -17,7 +17,7 @@ This website is built with:
 
 Image editor:
 
--[GIMP (GNU Image Manipulation Program)](https://www.gimp.org/)
+- [GIMP (GNU Image Manipulation Program)](https://www.gimp.org/)
 
 Special thanks and credits to the following photographers:
 
