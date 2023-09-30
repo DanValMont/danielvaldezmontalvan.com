@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import classes from "./Maincontent.module.css";
+import classes from "./MainContent.module.css";
 import { useInvertContext } from "../../context/invert.js";
 
 function Maincontent() {
