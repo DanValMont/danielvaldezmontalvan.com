@@ -3,8 +3,9 @@ const nextConfig = {
   /* config options here */
   reactStrictMode: true,
   images: {
-    loader: "imgix",
-    path: "",
+    unoptimized: true,
+    // loader: "imgix",
+    // path: "",
   },
 };
 
