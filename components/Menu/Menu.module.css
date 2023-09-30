@@ -37,7 +37,7 @@
     z-index: 5;
     object-fit: cover;
     /* Photo by Jess Loiterton from Pexels, edited with GIMP: */
-    background: url("/background-images/surfer-transparent.png") no-repeat center center fixed;
+    background: url("../../public/background-images/surfer-transparent.png") no-repeat center center fixed;
     background-size: cover;
     filter: url(#turbulence);
 }
@@ -53,7 +53,7 @@
     z-index: 5;
     object-fit: cover;
     /* Photo by Kammeran Gonzalez-Keola from Pexels: */
-    background: url("/background-images/big-wave-right.jpg") no-repeat center center fixed;
+    background: url("../../public/background-images/big-wave-right.jpg") no-repeat center center fixed;
     background-size: cover;
     opacity: 0;
     transition: opacity 2.5s ease;
@@ -72,7 +72,7 @@
     z-index: 5;
     object-fit: cover;
     /* Photo by MarcTutorials from Pexels: */
-    background: url("/background-images/palm-trees.jpg") no-repeat center center fixed;
+    background: url("../../public/background-images/palm-trees.jpg") no-repeat center center fixed;
     background-size: cover;
     opacity: 0;
     transition: opacity 2.5s ease;
@@ -91,7 +91,7 @@
     z-index: 5;
     object-fit: cover;
     /* Photo by Jess Loiterton from Pexels: */
-    background: url("/background-images/surfer.jpg") no-repeat center center fixed;
+    background: url("../../public/background-images/surfer.jpg") no-repeat center center fixed;
     background-size: cover;
     opacity: 0;
     transition: opacity 2.5s ease;
@@ -128,7 +128,7 @@
     z-index: 5;
     object-fit: cover;
     /* Photo by Daria Shevtsova from Pexels: */
-    background: url("/background-images/beach-house.jpg") no-repeat center center fixed;
+    background: url("../../public/background-images/beach-house.jpg") no-repeat center center fixed;
     background-size: cover;
     opacity: 0;
     transition: opacity 2.5s ease;

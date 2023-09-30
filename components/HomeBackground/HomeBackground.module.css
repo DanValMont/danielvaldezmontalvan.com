@@ -10,7 +10,7 @@
     bottom: 0;
     /* Photo by Kammeran Gonzalez-Keola from Pexels: */
     background:
-        url("/background-images/homepage-background.jpg") no-repeat center center fixed;
+        url("../../public/background-images/homepage-background.jpg") no-repeat center center fixed;
     background-size: cover;
     object-fit: cover;
     width: 100%;
@@ -26,7 +26,7 @@
     /* added above */
     /* Photo by Kammeran Gonzalez-Keola from Pexels, edited with GIMP: */
     background:
-        url("/background-images/homepage-background-with-transparency.png") no-repeat center center fixed;
+        url("../../public/background-images/homepage-background-with-transparency.png") no-repeat center center fixed;
     background-size: cover;
     object-fit: cover;
     width: 100%;
@@ -37,14 +37,14 @@
 @media only screen and (max-width: 992px) and (orientation: portrait) {
     .background_image {
         /* Photo by Kammeran Gonzalez-Keola from Pexels: */
-        background: url("/background-images/homepage-background.jpg") no-repeat 32% bottom fixed;
+        background: url("../../public/background-images/homepage-background.jpg") no-repeat 32% bottom fixed;
         background-size: cover;
         object-fit: cover;
     }
 
     .background_image_with_transparency {
         /* Photo by Kammeran Gonzalez-Keola from Pexels, edited with GIMP: */
-        background: url("/background-images/homepage-background-with-transparency.png") no-repeat 32% bottom fixed;
+        background: url("../../public/background-images/homepage-background-with-transparency.png") no-repeat 32% bottom fixed;
         background-size: cover;
         object-fit: cover;
         filter: url("#turbulence");

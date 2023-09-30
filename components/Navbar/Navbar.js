@@ -36,7 +36,7 @@ function Navbar({ invertHeader, invertEffect }) {
           <Link href="/">
             <a>
               <Image
-                src="/icons/daniel-logo-colored-black.svg"
+                src="../../public/icons/daniel-logo-colored-black.svg"
                 alt="logo_daniel_website"
                 width={38}
                 height={38}
@@ -60,14 +60,14 @@ function Navbar({ invertHeader, invertEffect }) {
               <button className={classes.button_menu} onClick={toggle}>
                 {!isMenuIconOpen ? (
                   <Image
-                    src="/icons/menu-icon-surfboards.svg"
+                    src="../../public/icons/menu-icon-surfboards.svg"
                     alt="menu-icon"
                     width={64}
                     height={18}
                   />
                 ) : (
                   <Image
-                    src="/icons/menu-icon-cross-surfboards.svg"
+                    src="../../public/icons/menu-icon-cross-surfboards.svg"
                     alt="menu-icon"
                     width={64}
                     height={18}
