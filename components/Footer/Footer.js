@@ -1,5 +1,5 @@
 import React from "react";
-import { useInvertContext } from "../../context/invert";
+import { useInvertContext } from "../../context/invert.js";
 import classes from "./Footer.module.css";
 
 function Footer() {

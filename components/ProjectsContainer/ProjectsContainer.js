@@ -2,8 +2,8 @@ import React from "react";
 import classes from "./ProjectsContainer.module.css";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
-import projectCards from "../../utils/data";
-import ProjectCards from "../ProjectCards/ProjectCards";
+import projectCards from "../../utils/data.js";
+import ProjectCards from "../ProjectCards/ProjectCards.js";
 
 function ProjectsContainer() {
   return (

@@ -1,7 +1,7 @@
-import Layout from "../components/Layout/Layout";
-import Navbar from "../components/Navbar/Navbar";
-import Homebackground from "../components/HomeBackground/Homebackground";
-import Maincontent from "../components/MainContent/Maincontent";
+import Layout from "../components/Layout/Layout.js";
+import Navbar from "../components/Navbar/Navbar.js";
+import Homebackground from "../components/HomeBackground/Homebackground.js";
+import Maincontent from "../components/MainContent/Maincontent.js";
 
 export default function Home() {
   return (

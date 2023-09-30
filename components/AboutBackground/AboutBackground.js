@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./Aboutbackground.module.css";
+import classes from "./AboutBackground.module.css";
 import { useInvertContext } from "../../context/invert";
 
 function Aboutbackground() {

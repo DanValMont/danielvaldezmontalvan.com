@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import Link from "next/link";
 import classes from "./Navbar.module.css";
 import Image from "next/image";
-import Menu from "../Menu/Menu";
-import { useInvertContext } from "../../context/invert";
+import Menu from "../Menu/Menu.js";
+import { useInvertContext } from "../../context/invert.js";
 
 function Navbar({ invertHeader, invertEffect }) {
   const [styleLayout, setStyleLayout] = useInvertContext();

@@ -1,7 +1,7 @@
 import React from "react";
-import Layout from "../components/Layout/Layout";
-import Navbar from "../components/Navbar/Navbar";
-import ProjectsContainer from "../components/ProjectsContainer/ProjectsContainer";
+import Layout from "../components/Layout/Layout.js";
+import Navbar from "../components/Navbar/Navbar.js";
+import ProjectsContainer from "../components/ProjectsContainer/ProjectsContainer.js";
 
 function Projects() {
   return (

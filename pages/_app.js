@@ -1,8 +1,8 @@
 import "../styles/globals.css";
 import { useState, useEffect, Fragment } from "react";
 import { useRouter } from "next/router";
-import Preloader from "../components/Preloader/Preloader";
-import { InvertProvider } from "../context/invert";
+import Preloader from "../components/Preloader/Preloader.js";
+import { InvertProvider } from "../context/invert.js";
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
