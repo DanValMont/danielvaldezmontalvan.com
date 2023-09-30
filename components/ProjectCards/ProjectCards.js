@@ -33,7 +33,7 @@ export default function ProjectCards({ card }) {
           <div className={classes.card_text}>
             <span className={classes.flip_card_icon_front}>
               <Image
-                src="/icons/tap.svg"
+                src="./icons/tap.svg"
                 alt="flip_card"
                 width={26}
                 height={26}
