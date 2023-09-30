@@ -109,7 +109,7 @@
     z-index: 5;
     object-fit: cover;
     /* Photo by William Weaver from Pexels: */
-    background: url("/background-images/big-wave-left.jpg") no-repeat center center fixed;
+    background: url("../../public/background-images/big-wave-left.jpg") no-repeat center center fixed;
     background-size: cover;
     opacity: 0;
     transition: opacity 2.5s ease;
