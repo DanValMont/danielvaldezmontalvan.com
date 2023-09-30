@@ -1,7 +1,7 @@
 import "../styles/globals.css";
 import { useState, useEffect, Fragment } from "react";
 import { useRouter } from "next/router";
-import Preloader from "../components/Preloader/Preloader.js";
+import Preloader from "../components/PreLoader/PreLoader.js";
 import { InvertProvider } from "../context/invert.js";
 
 function MyApp({ Component, pageProps }) {
