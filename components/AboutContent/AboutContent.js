@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./Aboutcontent.module.css";
+import classes from "./AboutContent.module.css";
 import Image from "next/image";
 import { useInvertContext } from "../../context/invert.js";
 import Link from "next/link";
