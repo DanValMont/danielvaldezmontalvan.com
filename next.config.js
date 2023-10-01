@@ -9,7 +9,7 @@ const nextConfig = {
     // loader: "imgix",
     // path: "",
   },
-  basePath: "/danielvaldezmontalvan.com",
+  basePath: "/",
 };
 
 module.exports = nextConfig;
