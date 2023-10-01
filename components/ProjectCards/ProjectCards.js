@@ -33,7 +33,7 @@ export default function ProjectCards({ card }) {
           <div className={classes.card_text}>
             <span className={classes.flip_card_icon_front}>
               <Image
-                src="./icons/tap.svg"
+                src="../../public/icons/tap.svg"
                 alt="flip_card"
                 width={26}
                 height={26}
@@ -62,7 +62,7 @@ export default function ProjectCards({ card }) {
                     <Link href={`${card.github}`}>
                       <a target="_blank">
                         <Image
-                          src="/icons/github-icon.svg"
+                          src="/public/icons/github-icon.svg"
                           alt="github_link"
                           tooltip="github link"
                           width={20}
@@ -76,7 +76,7 @@ export default function ProjectCards({ card }) {
                     <Link href={`${card.website}`}>
                       <a target="_blank">
                         <Image
-                          src="/icons/domain.svg"
+                          src="../../public/icons/domain.svg"
                           alt="website_link"
                           tooltip="website link"
                           width={20}
@@ -96,7 +96,7 @@ export default function ProjectCards({ card }) {
                 onClick={() => onClickToggleBack()}
               >
                 <Image
-                  src="/icons/tap.svg"
+                  src="/public/icons/tap.svg"
                   alt="flip_card"
                   width={26}
                   height={26}
