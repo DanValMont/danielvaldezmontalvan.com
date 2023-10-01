@@ -75,7 +75,7 @@ function Menu({ isMenuListOpen, toggle }) {
         <div className={classes.menu_list_container}>
           <ul>
             <li className={isMenuListOpen ? classes.visible : null}>
-              <Link href="">
+              <Link href="/" prefetch={false}>
                 <a
                   onMouseEnter={(e) => hover(e, classes.background_image)}
                   onMouseLeave={hoveroff}
@@ -90,7 +90,7 @@ function Menu({ isMenuListOpen, toggle }) {
                 <a
                   onMouseEnter={(e) => hover(e, classes.background_image_2)}
                   onMouseLeave={hoveroff}
-                  onClick={router.pathname === "/projects" ? toggle : null}
+                  onClick={router.pathname === "/work" ? toggle : null}
                 >
                   <span>WORK</span>
                 </a>
@@ -143,7 +143,7 @@ function Menu({ isMenuListOpen, toggle }) {
         <div className={classes.menu_list_container}>
           <ul>
             <li className={`${classes.visible} ${classes.closing}`}>
-              <Link href="/">
+              <Link href="/" prefetch={false}>
                 <a>
                   <span>Home</span>
                 </a>
