@@ -9,7 +9,12 @@ function Layout({ title, description, children, applycss, applyFilter }) {
         <title>
           {title ? `${title} - Daniel Valdez` : "Daniel Valdez - Web Developer"}
         </title>
-        {description && <meta name="description" content={description}></meta>}
+        {description && <meta name="description" content={description} />}
+        <meta
+          name="keywords"
+          content="Daniel, Valdez, Montalvan, Daniel Valdez Montalvan, Portfolio, Web Developer, Full Stack Web Developer, Full Stack Developer, Website, Developer, Peru, Brasil, Brazil, US, United States, Freelance"
+        />
+        <meta name="author" content="Daniel Valdez Montalvan" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
         <link rel="icon" href="favicon.ico" />
