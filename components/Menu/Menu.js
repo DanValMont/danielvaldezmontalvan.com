@@ -75,7 +75,7 @@ function Menu({ isMenuListOpen, toggle }) {
         <div className={classes.menu_list_container}>
           <ul>
             <li className={isMenuListOpen ? classes.visible : null}>
-              <Link href="/" prefetch={false}>
+              <Link href="/danielvaldezmontalvan.com">
                 <a
                   onMouseEnter={(e) => hover(e, classes.background_image)}
                   onMouseLeave={hoveroff}
@@ -143,7 +143,7 @@ function Menu({ isMenuListOpen, toggle }) {
         <div className={classes.menu_list_container}>
           <ul>
             <li className={`${classes.visible} ${classes.closing}`}>
-              <Link href="/" prefetch={false}>
+              <Link href="/danielvaldezmontalvan.com">
                 <a>
                   <span>Home</span>
                 </a>
