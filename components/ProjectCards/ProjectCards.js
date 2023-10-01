@@ -76,7 +76,7 @@ export default function ProjectCards({ card }) {
                     <Link href={`${card.website}`}>
                       <a target="_blank">
                         <Image
-                          src="./public/icons/domain.svg"
+                          src="/icons/domain.svg"
                           alt="website_link"
                           tooltip="website link"
                           width={20}
@@ -96,7 +96,7 @@ export default function ProjectCards({ card }) {
                 onClick={() => onClickToggleBack()}
               >
                 <Image
-                  src="/public/icons/tap.svg"
+                  src="/icons/tap.svg"
                   alt="flip_card"
                   width={26}
                   height={26}

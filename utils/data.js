@@ -1,7 +1,7 @@
 const projectCards = [
   {
     id: 1,
-    imageSrc: "../../public/background-images/tablenow-homepage-image.png",
+    imageSrc: "/background-images/tablenow-homepage-image.png",
     date: "Jul 2023",
     title: "TABLENOW",
     description:
@@ -12,14 +12,14 @@ const projectCards = [
     website: "https://tablenow-nine.vercel.app/",
     roles: ["Brand Designer", "Web Designer", "Full-Stack Developer"],
     mainTechnologies: [
-      "/public/icons/next-js.svg",
-      "/public/icons/typescript.svg",
-      "../../public/icons/tailwindcss.svg",
-      "../../public/icons/materialui_icon.svg",
-      "../../public/icons/postgresql.svg",
-      "../../public/icons/JSON-Web-Token.svg",
-      "../../public/icons/prisma.svg",
-      "../../public/icons/supabase-logo-icon.svg",
+      "/icons/next-js.svg",
+      "/icons/typescript.svg",
+      "/icons/tailwindcss.svg",
+      "/icons/materialui_icon.svg",
+      "/icons/postgresql.svg",
+      "/icons/JSON-Web-Token.svg",
+      "/icons/prisma.svg",
+      "/icons/supabase-logo-icon.svg",
     ],
     nameTechnologies: [
       "Next.js",
