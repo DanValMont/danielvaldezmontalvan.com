@@ -33,7 +33,7 @@ function Navbar({ invertHeader, invertEffect }) {
         }`}
       >
         <div className={classes.logo} style={styleLayout}>
-          <Link href="/index">
+          <Link href="">
             <a>
               <Image
                 src="/icons/daniel-logo-colored-black.svg"
