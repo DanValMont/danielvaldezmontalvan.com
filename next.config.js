@@ -9,7 +9,6 @@ const nextConfig = {
     // loader: "imgix",
     // path: "",
   },
-  basePath: "/",
 };
 
 module.exports = nextConfig;
