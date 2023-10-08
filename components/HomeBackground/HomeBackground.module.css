@@ -37,17 +37,33 @@
 @media only screen and (max-width: 992px) and (orientation: portrait) {
     .background_image {
         /* Photo by Kammeran Gonzalez-Keola from Pexels: */
-        background: url("../../public/background-images/homepage-background.jpg") no-repeat 32% bottom fixed;
+        background: url("../../public/background-images/homepage-background.jpg") no-repeat 25% bottom fixed;
         background-size: cover;
         object-fit: cover;
     }
 
     .background_image_with_transparency {
         /* Photo by Kammeran Gonzalez-Keola from Pexels, edited with GIMP: */
-        background: url("../../public/background-images/homepage-background-with-transparency.png") no-repeat 32% bottom fixed;
+        background: url("../../public/background-images/homepage-background-with-transparency.png") no-repeat 25% bottom fixed;
         background-size: cover;
         object-fit: cover;
         filter: url("#turbulence");
+    }
+}
 
+@media only screen and (max-width: 1020px) and (orientation: landscape) {
+    .background_image {
+        /* Photo by Kammeran Gonzalez-Keola from Pexels: */
+        background: url("../../public/background-images/homepage-background.jpg") no-repeat 90% top fixed;
+        background-size: cover;
+        object-fit: cover;
+    }
+
+    .background_image_with_transparency {
+        /* Photo by Kammeran Gonzalez-Keola from Pexels, edited with GIMP: */
+        background: url("../../public/background-images/homepage-background-with-transparency.png") no-repeat 90% top fixed;
+        background-size: cover;
+        object-fit: cover;
+        filter: url("#turbulence");
     }
 }

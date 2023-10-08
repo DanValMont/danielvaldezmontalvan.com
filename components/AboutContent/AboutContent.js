@@ -52,22 +52,22 @@ function Aboutcontent() {
               <Image
                 src={"/icons/reactjs_icon.svg"}
                 alt="react_js_icon"
-                width={20}
-                height={20}
+                width={16}
+                height={16}
                 layout="intrinsic"
               />
               <Image
                 src={"/icons/materialui_icon.svg"}
                 alt="material_ui_icon"
-                width={20}
-                height={20}
+                width={16}
+                height={16}
                 layout="intrinsic"
               />
               <Image
                 src={"/icons/tailwindcss-about.svg"}
                 alt="tailwind_css_icon"
-                width={20}
-                height={20}
+                width={16}
+                height={16}
                 layout="intrinsic"
               />
             </div>
@@ -78,22 +78,22 @@ function Aboutcontent() {
               <Image
                 src={"/icons/nodejs_icon.svg"}
                 alt="node_js_icon"
-                width={20}
-                height={20}
+                width={16}
+                height={16}
                 layout="intrinsic"
               />
               <Image
                 src={"/icons/mongodb_logo_icon.svg"}
                 alt="mongo_db_logo_icon"
-                width={20}
-                height={20}
+                width={16}
+                height={16}
                 layout="intrinsic"
               />
               <Image
                 src={"/icons/postgresql-about.svg"}
                 alt="postgre_sql_icon"
-                width={20}
-                height={20}
+                width={16}
+                height={16}
                 layout="intrinsic"
               />
             </div>
@@ -104,15 +104,15 @@ function Aboutcontent() {
               <Image
                 src={"/icons/next-js.svg"}
                 alt="next_js_icon"
-                width={20}
-                height={20}
+                width={16}
+                height={16}
                 layout="intrinsic"
               />
               <Image
                 src={"/icons/typescript-about.svg"}
                 alt="typescript_icon"
-                width={20}
-                height={20}
+                width={16}
+                height={16}
                 layout="intrinsic"
               />
             </div>

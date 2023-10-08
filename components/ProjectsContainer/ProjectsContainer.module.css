@@ -4,7 +4,20 @@
 
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 360px) and (max-height: 600px) and (orientation: portrait) {
+    .main_grid {
+        width: 360px;
+        margin: 10vh auto auto 2vh;
+        height: 100vh;
+        overflow: scroll;
+    }
+
+    .alice-carousel__wrapper {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 640px) and (orientation: portrait){
     .main_grid {
         width: 360px;
         margin: 6vh auto;

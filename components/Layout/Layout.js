@@ -21,22 +21,22 @@ function Layout({ title, description, children, applycss, applyFilter }) {
         <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href="apple-touch-icon.png"
+          href="/apple-touch-icon.png"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="32x32"
-          href="favicon-32x32.png"
+          href="/favicon-32x32.png"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="16x16"
-          href="favicon-16x16.png"
+          href="/favicon-16x16.png"
         />
-        <link rel="manifest" href="img/site.webmanifest" />
-        <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
         <link
@@ -57,25 +57,17 @@ function Layout({ title, description, children, applycss, applyFilter }) {
       >
         {children}
         {applyFilter && (
-          <svg>
-            <filter id="turbulence" x="0" y="0" width="100%" height="100%">
-              <feTurbulence
-                id="sea-filter"
-                numOctaves="3"
-                seed="2"
-                baseFrequency="0.02 0.05"
-              ></feTurbulence>
-              <feDisplacementMap
-                scale="7"
-                in="SourceGraphic"
-              ></feDisplacementMap>
+          <svg xmlns="http://www.w3.org/2000/svg">
+            <filter x="0" y="0" width="100%" height="100%">
+              <feTurbulence baseFrequency="0.02 0.05" numOctaves="3" seed="2" />
+              <feDisplacementMap in="SourceGraphic" scale="7" />
               <animate
-                xlinkHref="#sea-filter"
                 attributeName="baseFrequency"
                 dur="60s"
                 keyTimes="0;0.5;1"
-                values="0.02 0.06;0.04 0.08;0.02 0.06"
                 repeatCount="indefinite"
+                values="0.02 0.06;0.04 0.08;0.02 0.06"
+                xlinkHref="#sea-filter"
               />
             </filter>
           </svg>

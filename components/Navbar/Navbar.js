@@ -32,14 +32,14 @@ function Navbar({ invertHeader, invertEffect }) {
             : classes.header_color_inverted
         }`}
       >
-        <div className={classes.logo} style={styleLayout}>
+        <div style={styleLayout}>
           <Link href="/">
             <a>
               <Image
                 src="/icons/daniel-logo-colored-black.svg"
                 alt="logo_daniel_website"
-                width={38}
-                height={38}
+                width={32}
+                height={32}
                 onMouseOver={
                   !isMenuIconOpen && !isMenuListOpen && !invertEffect
                     ? invertedBackgroundColor
@@ -56,21 +56,21 @@ function Navbar({ invertHeader, invertEffect }) {
         </div>
         <nav>
           <ul className={classes.menu}>
-            <li className={classes.logo} style={styleLayout}>
+            <li style={styleLayout}>
               <button className={classes.button_menu} onClick={toggle}>
                 {!isMenuIconOpen ? (
                   <Image
                     src="/icons/menu-icon-surfboards.svg"
                     alt="menu-icon"
-                    width={64}
-                    height={18}
+                    width={58}
+                    height={14}
                   />
                 ) : (
                   <Image
                     src="/icons/menu-icon-cross-surfboards.svg"
                     alt="menu-icon"
-                    width={64}
-                    height={18}
+                    width={60}
+                    height={16}
                   />
                 )}
                 <span className={classes.menu_indicator}>MENU</span>

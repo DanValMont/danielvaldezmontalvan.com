@@ -1,7 +1,7 @@
 const projectCards = [
   {
     id: 1,
-    imageSrc: "/background-images/tablenow-homepage-image.png",
+    imageSrc: "/background-images/tablenow-homepage-image.jpg",
     date: "Jul 2023",
     title: "TABLENOW",
     description:
@@ -34,7 +34,7 @@ const projectCards = [
   },
   {
     id: 2,
-    imageSrc: "/background-images/pizza-mario-homepage-image.png",
+    imageSrc: "/background-images/pizza-mario-homepage-image.jpg",
     date: "March 2023",
     title: "PIZZA MARIO",
     description:
@@ -68,7 +68,7 @@ const projectCards = [
   },
   {
     id: 3,
-    imageSrc: "/background-images/merged-homepage-image.png",
+    imageSrc: "/background-images/merged-homepage-image.jpg",
     date: "Nov 2022",
     title: "MERGED",
     description:
@@ -99,7 +99,7 @@ const projectCards = [
   },
   {
     id: 4,
-    imageSrc: "/background-images/2echo-homepage-image.png",
+    imageSrc: "/background-images/2echo-homepage-image.jpg",
     date: "Aug 2022",
     title: "2ECHO",
     description:
@@ -134,7 +134,7 @@ const projectCards = [
   },
   {
     id: 5,
-    imageSrc: "/background-images/revelation-homepage-image.png",
+    imageSrc: "/background-images/revelation-homepage-image.jpg",
     date: "Nov 2021",
     title: "REVELATION",
     description:

@@ -23,11 +23,11 @@
 .container h1 {
     margin: 0;
     padding: 0;
-    line-height: clamp(3.2rem, 1.8000rem + 6.2222vw, 6rem);
+    line-height: clamp(3.2rem, 2.4400rem + 3.8000vw, 7rem);
     font-family: "Soulmaze";
     font-style: italic;
     text-align: left;
-    font-size: clamp(3.9rem, 2.3500rem + 6.8889vw, 7rem);
+    font-size: clamp(3.7rem, 2.6400rem + 5.3000vw, 9rem);
     color: #FF6565;
 }
 
@@ -38,7 +38,7 @@
     font-family: "Soulmaze";
     font-style: italic;
     color: #FCF200;
-    font-size: clamp(1.8rem, 1.2750rem + 2.3333vw, 2.85rem);
+    font-size: clamp(1.5rem, 1.0800rem + 2.1000vw, 3.6rem);
     align-self: end;
 }
 
@@ -54,7 +54,7 @@
     margin: 0;
     padding: 0;
     text-align: right;
-    font-size: clamp(0.97rem, 0.7800rem + 0.8444vw, 1.35rem);
+    font-size: clamp(0.95rem, 0.8260rem + 0.6200vw, 1.57rem);
     color: #ffffff;
 }
 
@@ -75,9 +75,8 @@
     border: none;
     cursor: pointer;
     color: #FF6565;
-    font-size: clamp(0.97rem, 0.7800rem + 0.8444vw, 1.35rem);
+    font-size: clamp(0.95rem, 0.8260rem + 0.6200vw, 1.57rem);
     animation: vibrate-fast 5.2s ease-out 2s infinite normal none;
-
 }
 
 @keyframes vibrate-fast {
@@ -173,27 +172,28 @@
     }
 }
 
-@media only screen and (min-width: 601px) and (max-width: 1080px) and (orientation: landscape) {
+@media only screen and (min-width: 320px) and (max-width: 1020px) and (orientation: landscape) {
 
     .container {
         gap: 10vw 0;
     }
 
     .container h1 {
-        font-size: clamp(2rem, 0.5000rem + 6.6667vw, 5rem);
-        line-height: clamp(1.2rem, -0.2000rem + 6.2222vw, 4rem);
+        padding-top: 9vw;
+        font-size: clamp(2.5rem, -0.5172rem + 9.6552vw, 6rem);
+        line-height: clamp(1.7rem, -1.1448rem + 9.1034vw, 5rem);
     }
 
     .container h2 {
-        font-size: clamp(1rem, 0.5000rem + 2.2222vw, 2rem);
+        font-size: clamp(1rem, 0.5789rem + 2.1053vw, 2rem);
     }
 
 
     .container_actionquote blockquote {
-        font-size: clamp(0.62rem, 0.4300rem + 0.8444vw, 1rem);
+        font-size: clamp(0.62rem, 0.4600rem + 0.8000vw, 1rem);
     }
 
     .container_actionquote button {
-        font-size: clamp(0.62rem, 0.4300rem + 0.8444vw, 1rem);
+        font-size: clamp(0.62rem, 0.4600rem + 0.8000vw, 1rem);
     }
 }
