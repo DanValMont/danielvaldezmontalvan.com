@@ -58,7 +58,7 @@ function Layout({ title, description, children, applycss, applyFilter }) {
         {children}
         {applyFilter && (
           <svg xmlns="http://www.w3.org/2000/svg">
-            <filter x="0" y="0" width="100%" height="100%">
+            <filter id="turbulence" x="0" y="0" width="100%" height="100%">
               <feTurbulence baseFrequency="0.02 0.05" numOctaves="3" seed="2" />
               <feDisplacementMap in="SourceGraphic" scale="7" />
               <animate

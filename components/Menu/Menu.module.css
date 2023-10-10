@@ -313,12 +313,49 @@
     -webkit-transition: width 1s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
+@media only screen and (max-width: 375px) and (max-height: 690px) and (orientation: portrait) {
 
+    .background_image_3_mask {
+        display: none;
+        filter: none;
+    }
+
+    .background_image,
+    .background_image_2,
+    .background_image_4,
+    .background_image {
+        filter: none;
+    }
+}
 
 
 @media screen and (max-width: 900px) and (orientation: portrait) {
     .menu_list_container {
         width: 100% !important;
+    }
+
+    .background_image,
+    .background_image_2,
+    .background_image_3_mask,
+    .background_image_4,
+    .background_image {
+        display: none;
+        filter: none;
+    }
+
+    .background_image_3 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 690px) and (orientation: landscape) {
+
+    .background_image,
+    .background_image_2,
+    .background_image_3_mask,
+    .background_image_4,
+    .background_image {
+        filter: none;
     }
 }
 

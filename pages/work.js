@@ -5,7 +5,11 @@ import ProjectsContainer from "../components/ProjectsContainer/ProjectsContainer
 
 function Projects() {
   return (
-    <Layout title={`Work`} applycss={true}>
+    <Layout
+      title={`Work`}
+      description={`Portfolio of selected website applications projects developed by Daniel Valdez`}
+      applycss={true}
+    >
       <main>
         <section>
           <Navbar invertHeader={true} invertEffect={true} />
