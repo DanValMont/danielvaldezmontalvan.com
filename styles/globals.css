@@ -18,32 +18,32 @@ a {
 
 @font-face {
   font-family: "Soulmaze";
-  src: url("../public/fonts/Soulmaze/Soulmaze.otf");
+  src: url("../public/fonts/Soulmaze/Soulmaze.woff2");
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
   font-family: "Soulmaze-Italic";
-  src: url("../public/fonts/Soulmaze/Soulmaze-Italic.otf");
+  src: url("../public/fonts/Soulmaze/Soulmaze-Italic.woff2");
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
   font-family: "Questrial";
-  src: url("../public/fonts/Questrial/Questrial-Regular.ttf");
+  src: url("../public/fonts/Questrial/Questrial-Regular.woff2");
   font-display: swap;
 }
 
 @font-face {
   font-family: "Soulmaze-Brush";
-  src: url("../public/fonts/Soulmaze/Soulmaze-Brush.otf");
+  src: url("../public/fonts/Soulmaze/Soulmaze-Brush.woff2");
   font-style: normal;
   font-display: swap;
 }
 
-@font-face {
+/* @font-face {
   font-family: "Soulmaze-Outline-Italic";
   src: url("../public/fonts/Soulmaze/Soulmaze-Outline-Italic.otf");
   font-style: normal;
@@ -62,11 +62,11 @@ a {
   src: url("../public/fonts/MADE Future X/MADE Future X Regular.otf");
   font-style: normal;
   font-display: swap;
-}
+} */
 
 @font-face {
   font-family: "MADE Future X Thin";
-  src: url("../public/fonts/MADE Future X/MADE Future X Thin.otf");
+  src: url("../public/fonts/MADE Future X/MADE Future X Thin.woff2");
   font-style: normal;
   font-display: swap;
 }

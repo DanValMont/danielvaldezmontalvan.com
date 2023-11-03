@@ -10,7 +10,7 @@
     bottom: 0;
     /* Photo by Reed Naliboff from Unsplash: */
     background:
-        url("../../public/background-images/about-page.jpg") no-repeat center center fixed;
+        url("../../public/background-images/about-page.webp") no-repeat center center fixed;
     background-size: cover;
     object-fit: cover;
     width: 100dvw;
@@ -26,7 +26,7 @@
     z-index: 1;
     /* added above */
     /* Photo by Reed Naliboff from Unsplash, edited with GIMP: */
-    background: url("../../public/background-images/about-page-with-transparency.png") no-repeat center center fixed;
+    background: url("../../public/background-images/about-page-with-transparency.webp") no-repeat center center fixed;
     background-size: cover;
     object-fit: cover;
     width: 100%;
@@ -44,7 +44,7 @@
 @media only screen and (max-width: 992px) and (orientation: portrait) {
     .background_image {
         /* Photo by Reed Naliboff from Unsplash: */
-        background: url("../../public/background-images/about-page.jpg") no-repeat 32% bottom fixed;
+        background: url("../../public/background-images/about-page.webp") no-repeat 32% bottom fixed;
         background-size: cover;
         object-fit: cover;
 
@@ -52,7 +52,7 @@
 
     .background_image_with_transparency {
         /* Photo by Reed Naliboff from Unsplash, edited with GIMP: */
-        background: url("../../public/background-images/about-page-with-transparency.png") no-repeat 32% bottom fixed;
+        background: url("../../public/background-images/about-page-with-transparency.webp") no-repeat 32% bottom fixed;
         background-size: cover;
         object-fit: cover;
         filter: url("#turbulence");
