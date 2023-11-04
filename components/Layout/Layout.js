@@ -41,13 +41,13 @@ function Layout({ title, description, children, applycss, applyFilter }) {
         <meta name="theme-color" content="#ffffff" />
         <link
           rel="preload"
-          href="/fonts/Soulmaze/Soulmaze.otf"
+          href="/fonts/Soulmaze/Soulmaze.woff2"
           as="font"
           crossOrigin=""
         />
         <link
           rel="preload"
-          href="/fonts/Soulmaze/Soulmaze-Italic.otf"
+          href="/fonts/Soulmaze/Soulmaze-Italic.woff2"
           as="font"
           crossOrigin=""
         />

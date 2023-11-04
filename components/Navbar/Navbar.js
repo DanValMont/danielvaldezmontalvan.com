@@ -2,8 +2,11 @@ import React, { useState } from "react";
 import Link from "next/link";
 import classes from "./Navbar.module.css";
 import Image from "next/image";
-import Menu from "../Menu/Menu.js";
+// import Menu from "../Menu/Menu.js";
+import dynamic from "next/dynamic";
 import { useInvertContext } from "../../context/invert.js";
+
+const Menu = dynamic(() => import("../Menu/Menu.js"));
 
 function Navbar({ invertHeader, invertEffect }) {
   const [styleLayout, setStyleLayout] = useInvertContext();
