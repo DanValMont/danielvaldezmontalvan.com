@@ -64,7 +64,6 @@ export default function ProjectCards({ card }) {
                         <Image
                           src="/icons/github-icon.svg"
                           alt="github_link"
-                          tooltip="github link"
                           width={20}
                           height={20}
                           layout="intrinsic"
@@ -78,7 +77,6 @@ export default function ProjectCards({ card }) {
                         <Image
                           src="/icons/domain.svg"
                           alt="website_link"
-                          tooltip="website link"
                           width={20}
                           height={20}
                           layout="intrinsic"
