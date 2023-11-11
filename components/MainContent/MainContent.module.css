@@ -129,22 +129,32 @@
 
 .container_effect:hover {
     filter: url(#turbulence);
+    transition: filter 0.2s ease;
+    -webkit-transition: filter 0.2s ease;
 }
 
-.container_effect:hover h1 {
+/* .container_effect:hover h1 {
     color: #ce5252;
-}
+    transition: color 0.2s ease;
+    -webkit-transition: color 0.2s ease;
+} */
 
 .container_effect:hover h2 {
     color: #bfb800;
+    transition: color 0.2s ease;
+    -webkit-transition: color 0.2s ease;
 }
 
 .container_effect:hover blockquote {
     color: #c4f3f3;
+    transition: color 0.2s ease;
+    -webkit-transition: color 0.2s ease;
 }
 
 .container_effect:hover button {
     color: #ce5252;
+    transition: color 0.2s ease;
+    -webkit-transition: color 0.2s ease;
 }
 
 @media only screen and (max-width: 600px) and (orientation: portrait) {

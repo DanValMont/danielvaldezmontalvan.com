@@ -25,7 +25,7 @@ function Menu({ isMenuListOpen, toggle }) {
         opacity: 1,
         transform: "translateY(0vh)",
       }));
-    }, 2000);
+    }, 600);
   };
 
   const hoveroff = () => {

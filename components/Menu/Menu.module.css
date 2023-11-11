@@ -53,11 +53,11 @@
     z-index: 5;
     object-fit: cover;
     /* Photo by Kammeran Gonzalez-Keola from Pexels: */
-    background: url("../../public/background-images/big-wave-right.jpg") no-repeat center center fixed;
+    background: url("../../public/background-images/beach-house.webp") no-repeat center center fixed;
     background-size: cover;
     opacity: 0;
-    transition: opacity 2.5s ease;
-    -webkit-transition: opacity 2.5s ease;
+    transition: opacity 0.5s ease;
+    -webkit-transition: opacity 0.5s ease;
     filter: url(#turbulence);
 }
 
@@ -75,8 +75,8 @@
     background: url("../../public/background-images/palm-trees.jpg") no-repeat center center fixed;
     background-size: cover;
     opacity: 0;
-    transition: opacity 2.5s ease;
-    -webkit-transition: opacity 2.5s ease;
+    transition: opacity 0.5s ease;
+    -webkit-transition: opacity 0.5s ease;
     filter: url(#turbulence);
 }
 
@@ -94,8 +94,8 @@
     background: url("../../public/background-images/surfer.webp") no-repeat center center fixed;
     background-size: cover;
     opacity: 0;
-    transition: opacity 2.5s ease;
-    -webkit-transition: opacity 2.5s ease;
+    transition: opacity 0.5s ease;
+    -webkit-transition: opacity 0.5s ease;
 }
 
 .background_image_4 {
@@ -112,8 +112,8 @@
     background: url("../../public/background-images/big-wave-left.jpg") no-repeat center center fixed;
     background-size: cover;
     opacity: 0;
-    transition: opacity 2.5s ease;
-    -webkit-transition: opacity 2.5s ease;
+    transition: opacity 0.5s ease;
+    -webkit-transition: opacity 0.5s ease;
     filter: url(#turbulence);
 }
 
@@ -128,11 +128,11 @@
     z-index: 5;
     object-fit: cover;
     /* Photo by Daria Shevtsova from Pexels: */
-    background: url("../../public/background-images/beach-house.webp") no-repeat center center fixed;
+    background: url("../../public/background-images/big-wave-right.jpg") no-repeat center center fixed;
     background-size: cover;
     opacity: 0;
-    transition: opacity 2.5s ease;
-    -webkit-transition: opacity 2.5s ease;
+    transition: opacity 0.5s ease;
+    -webkit-transition: opacity 0.5s ease;
     filter: url(#turbulence);
 }
 

@@ -38,7 +38,7 @@ function Aboutcontent() {
           </Link>
         </span>
         <span>
-          <Link href="https://www.linkedin.com/in/daniel-borja-valdez-montalván-7121471b">
+          <Link href="https://www.linkedin.com/in/daniel-borja-valdez-montalvan">
             <a target="_blank">linkedin</a>
           </Link>
         </span>

@@ -9,7 +9,7 @@ function Maincontent() {
   return (
     <div className={classes.container} style={styleLayout}>
       <div className={classes.container_name}>
-        <div className={classes.container_effect}>
+        <div>
           <h1>
             DANIEL
             <br />
