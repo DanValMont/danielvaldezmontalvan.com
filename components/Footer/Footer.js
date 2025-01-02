@@ -4,10 +4,10 @@ import classes from "./Footer.module.css";
 
 function Footer() {
   const [styleLayout] = useInvertContext();
-
+  const currentYear = new Date().getFullYear();
   return (
     <div className={classes.footer_container} style={styleLayout}>
-      <p>&copy; 2023</p>
+      <p>&copy; {currentYear}</p>
       <p>designed and developed by Daniel Valdez</p>
     </div>
   );
